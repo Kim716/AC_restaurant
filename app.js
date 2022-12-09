@@ -30,6 +30,16 @@ app.get("/restaurants/:id", (req, res) => {
   res.render("show", { restaurant });
 });
 
+app.get("/search", (req, res) => {
+  const keyword = req.query.keyword;
+
+  const restaurants = restaurantList.results.filter((rest) =>
+    rest.name.toLowerCase().includes(keyword.toLowerCase())
+  );
+
+  res.render("index", { restaurants, keyword });
+});
+
 app.listen(port, () => {
   console.log(`i'm listening`);
 });
