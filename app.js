@@ -65,5 +65,5 @@ app.get("/search", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`i'm listening`);
+  console.log(`Listening on http://localhost:3000`);
 });
