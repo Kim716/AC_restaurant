@@ -9,7 +9,7 @@
 - [x] 連結餐廳的地址到 Google 地圖
 - [x] 根據中文名稱、英文名稱、類別搜尋特定餐廳
 
-# 📸 Screenshots 介面截圖
+### Screenshots 介面截圖
 
 首頁：概覽餐廳清單
 ![index page screenshot](/public/images/indexPage.png)
@@ -17,7 +17,7 @@
 個別介紹餐廳頁面
 ![show page screenshot](/public/images/showPage.png)
 
-# 🚀 Getting start
+# 🚀 Getting start 開始使用
 
 1. 請先確認有安裝 Node.js 與 npm
 
